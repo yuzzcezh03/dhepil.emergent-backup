@@ -1,5 +1,5 @@
 [build]
-  command = "npm ci && npm run build"
+  command = "npm ci --platform=linux --arch=x64 && npm run build"
   publish = "dist"
 
 [dev]
@@ -9,7 +9,7 @@
 
 # Environment variables for build
 [build.environment]
-  NODE_VERSION = "20"
+  NODE_VERSION = "20.19.1"
   NPM_FLAGS = "--no-optional"
 
 # SPA redirects for client-side routing
