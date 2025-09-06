@@ -10,7 +10,7 @@ import { SCHEMA_VERSION } from "./LauncherConfigSchema";
 const BACKGROUNDS: BgLayer[] = [
   {
     id: "BG1",
-    src: "/src/Asset/BG1.png",
+    src: "/src/Launcher/LauncherAsset/CLOCK (5).png",
     xPct: 50,
     yPct: 50,
     scalePct: 100,
@@ -30,7 +30,7 @@ const LAYERS: LayerConfig[] = [
   
   {
     id: "layer-orbit-clock-demo",           // unik per layer
-    path: "/frontend/src/Launcher/LauncherAsset/CLOCK (1).pngBG3.png",              // ganti sesuai asset
+    path: "/src/Launcher/LauncherAsset/CLOCK (2).png",              // ganti sesuai asset
     enabled: true,                          // true | false
     zHint: 20,                              // 0..100 (urutan render)
 
